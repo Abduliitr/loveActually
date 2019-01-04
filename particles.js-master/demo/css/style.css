@@ -88,9 +88,9 @@ canvas{
 
 #particles-js{
   width: 100%;
-  height: 100%;
+  height: 90vh;
   /* background-color: #b61924; */
-  background-image: linear-gradient(to top, #5121ff, #692aff, #7d33ff, #8d3cff, #9c46ff, #b243f6, #c341ec, #d240e3, #e532cd, #f228b8, #fb24a3, #ff298f);
+  background-image: linear-gradient(to right, #5121ff, #692aff, #7d33ff, #8d3cff, #9c46ff, #b243f6, #c341ec, #d240e3, #e532cd, #f228b8, #fb24a3, #ff298f);
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% 50%;
@@ -99,26 +99,26 @@ canvas{
 
 @media only screen and (max-width:800px){
   #particles-js{
-    height: 110%;
+    height: 100vh;
   }
 }
 @media only screen and (max-width:700px){
   #particles-js{
-    height: 120%;
+    height: 110vh;
   }
 }
 @media only screen and (max-width:600px){
   #particles-js{
-    height: 130%;
+    height:  120vh;
   }
 }
 @media only screen and (max-width:500px){
   #particles-js{
-    height: 150%;
+    height: 150vh;
   }
 }
 @media only screen and (max-width:450px){
   #particles-js{
-    height: 160%;
+    height: 172vh;
   }
 }
