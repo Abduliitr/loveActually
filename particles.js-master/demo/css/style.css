@@ -99,27 +99,27 @@ canvas{
 
 @media only screen and (max-width:800px){
   #particles-js{
-    height: 100vh;
+    height: 120vh;
   }
 }
 @media only screen and (max-width:700px){
   #particles-js{
-    height: 110vh;
+    height: 130vh;
   }
 }
 @media only screen and (max-width:600px){
   #particles-js{
-    height:  120vh;
+    height:  140vh;
   }
 }
 @media only screen and (max-width:500px){
   #particles-js{
-    height: 150vh;
+    height: 160vh;
   }
 }
 @media only screen and (max-width:450px){
   #particles-js{
-    height: 172vh;
+    height: 182vh;
   }
 }
 @media only screen and (max-width:350px){
