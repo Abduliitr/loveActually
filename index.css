@@ -157,6 +157,56 @@ header .fa-instagram::before{
     text-align: center;
     color: whitesmoke;
 }
+
+#advisor{
+    padding: 50px 0 50px 0;
+    color: black;
+    background-color: #edeff2;
+}
+#advisor .container h1{
+    /*font-family: 'Charm', cursive;*/
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#advisor .container p{
+   
+    font-weight: 600;
+    text-align: center;
+    /*padding-bottom: 30px;*/
+}
+
+#advisor .container .polaroid{
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
+    text-align: center; 
+    transition: transform .2s;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+#advisor .container .polaroid p{
+    padding: 10px 0 0 0;
+    /*font-family: 'Charm', cursive;*/
+    margin-bottom: 0;
+
+}
+#advisor .container .polaroid:hover{
+    transform: scale(1.03);
+}
+#advisor .advisor-icon i{
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    letter-spacing: 10px;
+
+}
+#advisor .advisor-icon i:hover{
+   color: #afc6ea;
+}
+
+
 .box{
     color: white;
     text-align: center;
@@ -759,6 +809,7 @@ img::-moz-selection {
 }
 #copyright p{
     text-align: center;
+    font-size: 14px;
     font-weight: 600;
     color: white;
 }
