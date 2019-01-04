@@ -122,3 +122,8 @@ canvas{
     height: 172vh;
   }
 }
+@media only screen and (max-width:350px){
+  #particles-js{
+    height: 200vh;
+  }
+}
