@@ -30,6 +30,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+
 <body id="body">
 <!--Above navbar-->    
     <!-- <div class="jumbotron" style="margin-bottom: 0px;">
@@ -83,18 +84,9 @@
         <div class="container-fluid home-page">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <h1 class="first-intro">Welcome to this <br><span id="wholesome">Wholesome</span><span id="amazing">Amazing</span><span id="helping">Helping</span> <br> Platform - <i> LoveActually <i class="fa fa-heart-o" aria-hidden="true"></i></i></h1>
+                    <h1 class="first-intro">Welcome to this <br><span id="wholesome" style="display:none;">Wholesome</span><span id="amazing" style="display:block;">Amazing</span><span id="helping" style="display:none;">Helping</span>  Platform - <i> LoveActually <i class="fa fa-heart-o" aria-hidden="true"></i></i></h1>
                 </div>
-                <script> 
-                   
-                        $('#body').ready(function(){
-
-                            $('#helping').hide();
-                            $('#amazing').show(3000);
-                            $('#wholesome').hide();
-
-                        });
-                </script>
+               
 
                 <div class="col-lg-6 col-md-6 col-sm-0">
                 
@@ -228,4 +220,43 @@
 	<script type="text/javascript" src="bootstrap/js/jquery.js"></script>
 	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 </body>
+<script> 
+
+    window.onload = function f1(){
+        document.getElementById('amazing').style.display="block";
+        document.getElementById('wholesome').style.display="none";
+        document.getElementById('helping').style.display="none";
+        window.setTimeout("f2()",2000);
+    }
+
+    function f2(){
+        
+        document.getElementById('amazing').style.display="none";
+        document.getElementById('wholesome').style.display="block";
+        document.getElementById('helping').style.display="none";
+
+        window.setTimeout("f3()",2000);
+    }
+
+    function f3(){
+        document.getElementById('amazing').style.display="none";
+        document.getElementById('wholesome').style.display="none";
+        document.getElementById('helping').style.display="block";
+
+        window.setTimeout("f1()",2000);
+    } 
+    function f1(){
+        document.getElementById('amazing').style.display="block";
+        document.getElementById('wholesome').style.display="none";
+        document.getElementById('helping').style.display="none";
+        window.setTimeout("f2()",2000);
+    }
+    // $('#body').ready(function(){
+
+    //     $('#helping').hide();
+    //     $('#amazing').show(3000);
+    //     $('#wholesome').hide();
+
+    // });
+</script>   
 </html>
